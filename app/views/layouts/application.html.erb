@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simpleblog</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Vidaloka&display=swap" rel="stylesheet">
+
+
+    <%= stylesheet_link_tag    'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body><!-- Image and text -->
+
+
+
+
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light" style="background-color:rgba(10, 90, 0, 0.5)!important">
+  <a id="bacon" class="navbar-brand" href="/posts">BaconMagic</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <%= link_to "Home", home_path %>
+      </li>
+    </ul>
+    <ul class="navbar-nav float-right">
+      <li class="nav-item active">
+        <%= link_to "Create Post", new_post_path %>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <%= yield %>
+</div>
+
+  </body>
+</html>
