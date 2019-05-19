@@ -1,3 +1,24 @@
+body {
+  background-color: rgba(50, 177, 150, 0.5);
+
+}
+#canvas {
+  background:  url(https://media2.giphy.com/media/l4hLAFGzUm47BGkDu/200w.webp?cid=790b76115ce0d65e506c4451590c69be&rid=200w.webp) no-repeat center center fixed;
+  background-size: cover;
+  margin-left: 45px;
+}
+
+
+#stories {
+  color: rgb(232, 248, 250);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#bgimg {
+  background:  url(http://www.bacon.rocks/bacon2.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 #bacon{
   color: brown;
   font-family: 'Vidaloka', serif;
