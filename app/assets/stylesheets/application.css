@@ -1,16 +1,28 @@
 body {
-  background-color: rgba(50, 177, 150, 0.5);
-
+  background-color: rgba(204, 194, 128, 0.7)
 }
+
+
+h4, h1 {
+    font-family: 'Vidaloka', serif;
+}
+
+h3 {
+  font-family: 'Cinzel', serif;
+}
+
+
+
 #canvas {
   background:  url(https://media2.giphy.com/media/l4hLAFGzUm47BGkDu/200w.webp?cid=790b76115ce0d65e506c4451590c69be&rid=200w.webp) no-repeat center center fixed;
   background-size: cover;
   margin-left: 45px;
+  border-radius: 50%;
 }
 
 
 #stories {
-  color: rgb(232, 248, 250);
+  color: rgba(224, 199, 110, 0.87);
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -19,19 +31,17 @@ body {
   background-size: cover;
 }
 
+
+
 #bacon{
-  color: brown;
+  color: rgb(226, 166, 32);
+  text-shadow: 2px 2px 4px #34c69a;
   font-family: 'Vidaloka', serif;
+  font-size: 1.5rem;
+
 }
 
 .btn {
   background-color: rgba(255, 77, 40, 0.9);
   color: #fff;
-}
-
-h3 {
-  font-family: 'Cinzel', serif;
-}
-h1{
-  font-family: 'Vidaloka', serif;
 }
