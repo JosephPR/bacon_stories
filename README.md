@@ -1,7 +1,7 @@
 # README
 
 
-[BaconStories](https://media.giphy.com/media/KebQwdmFiuI3GyS5ZB/giphy.gif)
+![BaconStories](https://media.giphy.com/media/KebQwdmFiuI3GyS5ZB/giphy.gif)
 
 
 This README would normally document whatever steps are necessary to get the
